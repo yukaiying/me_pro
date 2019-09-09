@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>固定定位</title>
+		<style type="text/css">
+			.fixed_big_div{
+				width: 82px;
+				height: 185px;
+			}
+			.fixed_ul li{
+				text-align: center;
+				width: 82x;
+				height: 90px;
+				border: 1px solid #f5f5f5;
+				color: #757575;
+			}
+			.fixed_ul span{
+				font-size: 12px;
+				display: block;
+			}
+			.fixed_ul li:hover{
+				color: #ff6700;
+			}
+			.hover_img{
+				display: none;
+			}
+			.fixed_ul li:hover .hover_img{
+				display: inline;
+			}
+			.fixed_ul li:hover .show_img{
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="fixed_big_div">
+			<ul class="fixed_ul">
+				<li>
+					<img src="img/mobile.png" class="show_img"/>
+					<img src="img/mobile_hover.png" class="hover_img"/>
+					<span>手机APP</span>
+				</li>
+				<li>
+					<img src="img/people.png" />
+					<span>个人中心</span>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
